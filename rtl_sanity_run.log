@@ -1,0 +1,26 @@
+[PASS] T1: write resp OKAY
+[PASS] T1: readback data matches
+[PASS] T1: read resp OKAY
+[PASS] T2: AW-before-W write resp OKAY
+[PASS] T2: AW-before-W readback matches
+[PASS] T3: W-before-AW write resp OKAY
+[PASS] T3: W-before-AW readback matches
+[PASS] T4: WSTRB partial write got 0x00bb00dd exp 0x00BB00DD
+[PASS] T5: write to invalid addr -> SLVERR
+[PASS] T5: read from invalid addr -> SLVERR
+[PASS] T6: unaligned write addr -> SLVERR
+[PASS] T7: back-to-back writes both OKAY
+[PASS] T7: reg 3 readback
+[PASS] T7: reg 4 readback
+[PASS] T8: BVALID held stable while BREADY low
+[PASS] T8: BVALID held stable while BREADY low
+[PASS] T8: BVALID held stable while BREADY low
+[PASS] T9: RVALID held stable while RREADY low
+[PASS] T9: RVALID held stable while RREADY low
+[PASS] T9: RVALID held stable while RREADY low
+[PASS] T9: RREADY-backpressured read data correct
+[PASS] T10: register cleared after reset
+--------------------------------------------------
+ALL TESTS PASSED (0 errors)
+--------------------------------------------------
+- /home/claude/AXI4-Lite-Slave-Verification-UVM/sim/scripts/rtl_sanity_tb.sv:242: Verilog $finish

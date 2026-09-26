@@ -1,0 +1,8 @@
+%Error-PKGNODECL: third_party/uvm-1800.2-2020.3.1/base/uvm_coreservice.svh:379:42: Package/class 'type_id' not found, and needs to be predeclared (IEEE 1800-2017 26.3)
+  379 |             m_hopper = uvm_phase_hopper::type_id::create("default_hopper");
+      |                                          ^~~~~~~
+                  third_party/uvm-1800.2-2020.3.1/base/uvm_base.svh:54:1: ... note: In file included from 'uvm_base.svh'
+                  third_party/uvm-1800.2-2020.3.1/uvm_pkg.sv:58:1: ... note: In file included from 'uvm_pkg.sv'
+                  ... For error description see https://verilator.org/warn/PKGNODECL?v=5.020
+%Error: Exiting due to 1 error(s)
+        ... See the manual at https://verilator.org/verilator_doc.html for more assistance.

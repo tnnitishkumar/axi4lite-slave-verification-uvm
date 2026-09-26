@@ -1,0 +1,10 @@
+rtl/axi4lite_if.sv:90: syntax error
+rtl/axi4lite_if.sv:90: error: Invalid module item.
+rtl/axi4lite_if.sv:101: syntax error
+rtl/axi4lite_if.sv:103: error: Invalid module item.
+rtl/axi4lite_if.sv:104: error: 'AWADDR' has already been declared in this scope.
+rtl/axi4lite_if.sv:17:      : It was declared here as a variable.
+rtl/axi4lite_if.sv:104: error: 'AWPROT' has already been declared in this scope.
+rtl/axi4lite_if.sv:18:      : It was declared here as a variable.
+rtl/axi4lite_if.sv:104: error: 'AWVALID' has already been declared in this scope.
+rtl/axi4lite_if.sv:19:      : It was declared here as a variable.

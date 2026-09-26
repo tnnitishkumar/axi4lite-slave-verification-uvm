@@ -1,0 +1,5 @@
+%Error-UNSUPPORTED: tb/env/axi4lite_coverage.sv:20:5: Unsupported: covergroup
+   20 |     covergroup cg_transaction with function sample(axi4lite_transaction t);
+                    ... For error description see https://verilator.org/warn/UNSUPPORTED?v=5.020
+   20 |     covergroup cg_transaction with function sample(axi4lite_transaction t);
+%Error-UNSUPPORTED: tb/env/axi4lite_coverage.sv:83:24: Unsupported: declaration assignment with new()
